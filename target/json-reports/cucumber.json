@@ -1,0 +1,1182 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2023-02-26T20:48:36.153Z",
+        "line": 21,
+        "name": "TC01_personel_olustur",
+        "description": "",
+        "id": "personel-olusturma;tc01-personel-olustur;personel-bilgileri;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4654243000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "kullanici \"https://editor.datatables.net/\" gider",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://editor.datatables.net/\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.DataTablesStepDefinitions.kullanici_gider(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 111141900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "kullanici new butonuna tiklar",
+            "match": {
+              "location": "stepdefinitions.DataTablesStepDefinitions.kullanici_new_butonuna_tiklar()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 188695600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "kullanici firstname \"john\" girer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"john\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepdefinitions.DataTablesStepDefinitions.kullanici_first_name_girer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 87797600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "kullanici lastname \"walker\" girer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"walker\"",
+                  "offset": 19
+                }
+              ],
+              "location": "stepdefinitions.DataTablesStepDefinitions.kullanici_last_name_girer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 148126900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "kullanici positions \"SDET\" girer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"SDET\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepdefinitions.DataTablesStepDefinitions.kullanici_positions_girer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 94225400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "kullanici office \"ISTANBUL\" girer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ISTANBUL\"",
+                  "offset": 17
+                }
+              ],
+              "location": "stepdefinitions.DataTablesStepDefinitions.kullanici_office_girer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 65482400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "kullanici extension \"345\" girer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"345\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepdefinitions.DataTablesStepDefinitions.kullanici_extension_girer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 153896800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "kullanici start_date \"2023-03-01\" girer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2023-03-01\"",
+                  "offset": 21
+                }
+              ],
+              "location": "stepdefinitions.DataTablesStepDefinitions.kullanici_start_date_girer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 65460600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "kullanici salary \"100000\" girer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"100000\"",
+                  "offset": 17
+                }
+              ],
+              "location": "stepdefinitions.DataTablesStepDefinitions.kullanici_salary_girer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 53736500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "kullanici create butonuna basar",
+            "match": {
+              "location": "stepdefinitions.DataTablesStepDefinitions.kullanici_create_buttonuna_basar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 96862600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "kullanici firstname ile \"john\" arar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"john\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepdefinitions.DataTablesStepDefinitions.kullanici_firstname_ile_arar(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1045458700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "firstname \"john\" in olustugunu test et",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"john\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.DataTablesStepDefinitions.firstname_in_olustugunu_test_et(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 741496300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "close the application",
+            "match": {
+              "location": "stepdefinitions.GoogleStepDefinitions.close_the_application()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@personel_olusturma"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-02-26T20:48:43.716Z",
+        "line": 22,
+        "name": "TC01_personel_olustur",
+        "description": "",
+        "id": "personel-olusturma;tc01-personel-olustur;personel-bilgileri;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2367303500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "kullanici \"https://editor.datatables.net/\" gider",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://editor.datatables.net/\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.DataTablesStepDefinitions.kullanici_gider(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 110156300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "kullanici new butonuna tiklar",
+            "match": {
+              "location": "stepdefinitions.DataTablesStepDefinitions.kullanici_new_butonuna_tiklar()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 199509200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "kullanici firstname \"zeynep\" girer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"zeynep\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepdefinitions.DataTablesStepDefinitions.kullanici_first_name_girer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 93424900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "kullanici lastname \"black\" girer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"black\"",
+                  "offset": 19
+                }
+              ],
+              "location": "stepdefinitions.DataTablesStepDefinitions.kullanici_last_name_girer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 133561100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "kullanici positions \"developer\" girer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"developer\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepdefinitions.DataTablesStepDefinitions.kullanici_positions_girer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 79411300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "kullanici office \"ankara\" girer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ankara\"",
+                  "offset": 17
+                }
+              ],
+              "location": "stepdefinitions.DataTablesStepDefinitions.kullanici_office_girer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 57664600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "kullanici extension \"3412\" girer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"3412\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepdefinitions.DataTablesStepDefinitions.kullanici_extension_girer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 154895600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "kullanici start_date \"2023-03-04\" girer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2023-03-04\"",
+                  "offset": 21
+                }
+              ],
+              "location": "stepdefinitions.DataTablesStepDefinitions.kullanici_start_date_girer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 63961600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "kullanici salary \"800000\" girer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"800000\"",
+                  "offset": 17
+                }
+              ],
+              "location": "stepdefinitions.DataTablesStepDefinitions.kullanici_salary_girer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 59682700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "kullanici create butonuna basar",
+            "match": {
+              "location": "stepdefinitions.DataTablesStepDefinitions.kullanici_create_buttonuna_basar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 96424300,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "kullanici firstname ile \"zeynep\" arar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"zeynep\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepdefinitions.DataTablesStepDefinitions.kullanici_firstname_ile_arar(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1037914100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "firstname \"zeynep\" in olustugunu test et",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"zeynep\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.DataTablesStepDefinitions.firstname_in_olustugunu_test_et(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 740070200,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "close the application",
+            "match": {
+              "location": "stepdefinitions.GoogleStepDefinitions.close_the_application()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@personel_olusturma"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-02-26T20:48:48.923Z",
+        "line": 23,
+        "name": "TC01_personel_olustur",
+        "description": "",
+        "id": "personel-olusturma;tc01-personel-olustur;personel-bilgileri;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2220759900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "kullanici \"https://editor.datatables.net/\" gider",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://editor.datatables.net/\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.DataTablesStepDefinitions.kullanici_gider(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 223229500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "kullanici new butonuna tiklar",
+            "match": {
+              "location": "stepdefinitions.DataTablesStepDefinitions.kullanici_new_butonuna_tiklar()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 122301000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "kullanici firstname \"ali\" girer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ali\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepdefinitions.DataTablesStepDefinitions.kullanici_first_name_girer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 75057200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "kullanici lastname \"tez\" girer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"tez\"",
+                  "offset": 19
+                }
+              ],
+              "location": "stepdefinitions.DataTablesStepDefinitions.kullanici_last_name_girer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 134095500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "kullanici positions \"BA\" girer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"BA\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepdefinitions.DataTablesStepDefinitions.kullanici_positions_girer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 68359300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "kullanici office \"Tokat\" girer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Tokat\"",
+                  "offset": 17
+                }
+              ],
+              "location": "stepdefinitions.DataTablesStepDefinitions.kullanici_office_girer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 55738500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "kullanici extension \"678\" girer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"678\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepdefinitions.DataTablesStepDefinitions.kullanici_extension_girer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 130334500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "kullanici start_date \"2023-03-08\" girer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2023-03-08\"",
+                  "offset": 21
+                }
+              ],
+              "location": "stepdefinitions.DataTablesStepDefinitions.kullanici_start_date_girer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 59948700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "kullanici salary \"870000\" girer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"870000\"",
+                  "offset": 17
+                }
+              ],
+              "location": "stepdefinitions.DataTablesStepDefinitions.kullanici_salary_girer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 53870800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "kullanici create butonuna basar",
+            "match": {
+              "location": "stepdefinitions.DataTablesStepDefinitions.kullanici_create_buttonuna_basar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 72542700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "kullanici firstname ile \"ali\" arar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ali\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepdefinitions.DataTablesStepDefinitions.kullanici_firstname_ile_arar(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1034261200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "firstname \"ali\" in olustugunu test et",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ali\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.DataTablesStepDefinitions.firstname_in_olustugunu_test_et(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 704091800,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "close the application",
+            "match": {
+              "location": "stepdefinitions.GoogleStepDefinitions.close_the_application()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@personel_olusturma"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-02-26T20:48:53.890Z",
+        "line": 24,
+        "name": "TC01_personel_olustur",
+        "description": "",
+        "id": "personel-olusturma;tc01-personel-olustur;personel-bilgileri;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2298833600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "kullanici \"https://editor.datatables.net/\" gider",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://editor.datatables.net/\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.DataTablesStepDefinitions.kullanici_gider(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 106646300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "kullanici new butonuna tiklar",
+            "match": {
+              "location": "stepdefinitions.DataTablesStepDefinitions.kullanici_new_butonuna_tiklar()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 181993800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "kullanici firstname \"feyza\" girer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"feyza\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepdefinitions.DataTablesStepDefinitions.kullanici_first_name_girer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 72000300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "kullanici lastname \"sar\" girer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sar\"",
+                  "offset": 19
+                }
+              ],
+              "location": "stepdefinitions.DataTablesStepDefinitions.kullanici_last_name_girer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 122805500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "kullanici positions \"PO\" girer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"PO\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepdefinitions.DataTablesStepDefinitions.kullanici_positions_girer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 139721800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "kullanici office \"Izmir\" girer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Izmir\"",
+                  "offset": 17
+                }
+              ],
+              "location": "stepdefinitions.DataTablesStepDefinitions.kullanici_office_girer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 82057400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "kullanici extension \"7456\" girer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"7456\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepdefinitions.DataTablesStepDefinitions.kullanici_extension_girer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 161547200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "kullanici start_date \"2023-03-03\" girer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2023-03-03\"",
+                  "offset": 21
+                }
+              ],
+              "location": "stepdefinitions.DataTablesStepDefinitions.kullanici_start_date_girer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 71923200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "kullanici salary \"860000\" girer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"860000\"",
+                  "offset": 17
+                }
+              ],
+              "location": "stepdefinitions.DataTablesStepDefinitions.kullanici_salary_girer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 53308700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "kullanici create butonuna basar",
+            "match": {
+              "location": "stepdefinitions.DataTablesStepDefinitions.kullanici_create_buttonuna_basar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 93382100,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "kullanici firstname ile \"feyza\" arar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"feyza\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepdefinitions.DataTablesStepDefinitions.kullanici_firstname_ile_arar(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1047833400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "firstname \"feyza\" in olustugunu test et",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"feyza\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.DataTablesStepDefinitions.firstname_in_olustugunu_test_et(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 714932300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "close the application",
+            "match": {
+              "location": "stepdefinitions.GoogleStepDefinitions.close_the_application()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@personel_olusturma"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-02-26T20:48:59.050Z",
+        "line": 25,
+        "name": "TC01_personel_olustur",
+        "description": "",
+        "id": "personel-olusturma;tc01-personel-olustur;personel-bilgileri;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2269223300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "kullanici \"https://editor.datatables.net/\" gider",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://editor.datatables.net/\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.DataTablesStepDefinitions.kullanici_gider(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 204179700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "kullanici new butonuna tiklar",
+            "match": {
+              "location": "stepdefinitions.DataTablesStepDefinitions.kullanici_new_butonuna_tiklar()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 102207100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "kullanici firstname \"Mukesh\" girer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Mukesh\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepdefinitions.DataTablesStepDefinitions.kullanici_first_name_girer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 75305600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "kullanici lastname \"Srivasan\" girer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Srivasan\"",
+                  "offset": 19
+                }
+              ],
+              "location": "stepdefinitions.DataTablesStepDefinitions.kullanici_last_name_girer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 187375900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "kullanici positions \"Scrum Master\" girer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Scrum Master\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepdefinitions.DataTablesStepDefinitions.kullanici_positions_girer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 80004000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "kullanici office \"Haydarabat\" girer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Haydarabat\"",
+                  "offset": 17
+                }
+              ],
+              "location": "stepdefinitions.DataTablesStepDefinitions.kullanici_office_girer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 57012700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "kullanici extension \"980\" girer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"980\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepdefinitions.DataTablesStepDefinitions.kullanici_extension_girer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 139561300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "kullanici start_date \"2023-03-09\" girer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2023-03-09\"",
+                  "offset": 21
+                }
+              ],
+              "location": "stepdefinitions.DataTablesStepDefinitions.kullanici_start_date_girer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 70092900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "kullanici salary \"50000\" girer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"50000\"",
+                  "offset": 17
+                }
+              ],
+              "location": "stepdefinitions.DataTablesStepDefinitions.kullanici_salary_girer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 52100200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "kullanici create butonuna basar",
+            "match": {
+              "location": "stepdefinitions.DataTablesStepDefinitions.kullanici_create_buttonuna_basar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 98339000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "kullanici firstname ile \"Mukesh\" arar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Mukesh\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepdefinitions.DataTablesStepDefinitions.kullanici_firstname_ile_arar(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1031379200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "firstname \"Mukesh\" in olustugunu test et",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Mukesh\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.DataTablesStepDefinitions.firstname_in_olustugunu_test_et(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 735484000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "close the application",
+            "match": {
+              "location": "stepdefinitions.GoogleStepDefinitions.close_the_application()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@personel_olusturma"
+          }
+        ]
+      }
+    ],
+    "name": "personel_olusturma",
+    "description": "",
+    "id": "personel-olusturma",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/day04_scenario_outline_2.feature",
+    "tags": [
+      {
+        "name": "@personel_olusturma",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
