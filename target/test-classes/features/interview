@@ -1,0 +1,7 @@
+Collectionslar nelerdir? -> list, set, queue
+Collectionslari frameworkunde nasıl kullandın? -> Collectionslari ozellikle coklu data ihtiyacimiz oldugunda kullanırız.
+Ornegin, findElements metotu kullanildiginda birden fazla element beklediğim icin, List<WebElement> kullanırız.
+Yada, çoklu pencere geçişlerinde getWindowHandles ile Set kullanırız.
+Dropdowndaki tum elementleri getOptions metot ile aldigimda List<WebElement> e koyariz.
+Frameforkumuzde bazı utility classlar kullanıyoruz. Bunlarin icince çok sayıda collections kullanıyoruz. Ornegin ExcelUtils datalarını list e koyan metotlarımız vardır.
+Cucumberda DataTables kullandigimda, gelen verileri List yada Map de depolayabiliriz.
