@@ -18,4 +18,13 @@ public class LoginPage {
 
     @FindBy(xpath = "//button[text()=' Login']")
     public WebElement login;
+
+    @FindBy(xpath = "//button[@id='dropdown-basic-button']")
+    public WebElement dropdownLogOut;
+
+    @FindBy(xpath = "//a[contains(text(),'Logout')]")
+    public WebElement logOut;
+    @FindBy(xpath = "//button[contains(text(),'OK')]")
+    public WebElement OKButton;
+
 }
