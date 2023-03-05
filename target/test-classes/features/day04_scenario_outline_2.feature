@@ -1,5 +1,6 @@
 @personel_olusturma
 Feature: personel_olusturma
+  @testrunner
   Scenario Outline: TC01_personel_olustur
     Given kullanici "https://editor.datatables.net/" gider
     When kullanici new butonuna tiklar
@@ -13,6 +14,7 @@ Feature: personel_olusturma
     And kullanici create butonuna basar
     When kullanici firstname ile "<firstname>" arar
     Then firstname "<firstname>" in olustugunu test et
+    Then ekran goruntusu al
     Then close the application
 
 

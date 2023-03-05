@@ -17,7 +17,7 @@ public class ReusableMethods {
     /*HOW DO YOU GET SCREENSHOT?
      * I use getScreenShotAs method to take a screenshot in selenium in my framework
      * I actually store the screenshot with unique name in my framework*/
-    public static String getScreenshot(String name) throws IOException {
+    public static String getScreenshot(String name){
 //        THIS METHOD TAKES SCREENSHOT AND STORE IN /test-output FOLDER
 //        NAME OF THE SCREEN IS BASED ON THE CURRENT TIME
 //        SO THAN WE CAN HAVE UNIQUE NAME
@@ -31,7 +31,11 @@ public class ReusableMethods {
         String target = System.getProperty("user.dir") + "/test-output/Screenshots/" + name + date + ".png";
         File finalDestination = new File(target);
         // save the screenshot to the path given
-        FileUtils.copyFile(source, finalDestination);
+        try {
+            FileUtils.copyFile(source, finalDestination);
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
         return target;
     }
     //========Switching Window=====//
